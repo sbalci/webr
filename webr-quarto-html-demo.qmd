@@ -1,7 +1,5 @@
 ---
-title: "webR with Quarto HTML Standalone Document Proof of Concept"
-subtitle: "Experiments with an Interactive Quarto Document using webR v0.1.0"
-author: "James J Balamuta; modified by EEH"
+title: "webR-quarto-html-demo"
 engine: knitr
 execute:
   echo: true
@@ -13,15 +11,6 @@ format:
 editor: source
 ---
 
-# Demo
-
-## Background
-
-The purpose of this document is to explore how WebR can be embedded in a 
-Quarto Document for the purposes of teaching _R_. 
-
-- WebR Website: <https://docs.r-wasm.org/webr/latest/>
-- WebR GitHub: <https://github.com/r-wasm/webr/>
 
 ## Setup 
 

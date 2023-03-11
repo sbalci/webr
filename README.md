@@ -1,5 +1,10 @@
 # webr
 
+- [WebR Website](https://docs.r-wasm.org/webr/latest/)
+
+- [WebR GitHub](https://github.com/r-wasm/webr/)
+
+
 
 ## file locations
 
