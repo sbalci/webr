@@ -1,0 +1,23 @@
+---
+title: WebR2 in Quarto HTML Documents
+format: html
+filters:
+  - webr
+---
+
+## Quarto
+
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+```{webr}
+1 + 1
+```
+
+
+
+```{webr}
+fit = lm(mpg ~ am, data = mtcars)
+summary(fit)
+```
+
+

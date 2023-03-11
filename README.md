@@ -4,7 +4,7 @@
 
 - [WebR GitHub](https://github.com/r-wasm/webr/)
 
-
+- [WebR Code Extension for Quarto](https://github.com/coatless/quarto-webr)
 
 ## file locations
 
@@ -29,6 +29,7 @@
 
 - quarto demo setup separated (separate qmd and html necessary) : <https://sbalci.github.io/webr/webr-quarto.html>
 
+- quarto extension: <https://sbalci.github.io/webr/webr2.html>
 
 ### not yet
 
