@@ -1,0 +1,161 @@
+---
+title: "webR with Quarto HTML Standalone Document Proof of Concept"
+subtitle: "Experiments with an Interactive Quarto Document using webR v0.1.0"
+author: "James J Balamuta; modified by EEH"
+repo:  https://github.com/RVerse-Tutorials/webR-quarto-demos
+engine: knitr
+execute:
+  echo: true
+  error: true
+embed-resources: true
+format:
+    html: 
+      toc: true
+      code-tools:
+        source: https://github.com/RVerse-Tutorials/webR-quarto-demos/blob/main/webr-quarto.qmd
+      include-in-header: webr-setup.html
+repo-url: https://github.com/RVerse-Tutorials/webR-quarto-demos
+repo-actions: [edit, source]
+editor: source
+---
+
+{{< include _webr-setup.qmd >}}
+
+# Background
+
+This is not my work. Forked from and go there to see how this works
+James J Balamuta: <https://github.com/coatless-r-n-d/webR-quarto-demos>
+
+This was created by JJB to explore how [WebR](https://docs.r-wasm.org/webr/latest/) can be embedded in a Quarto Document for the purposes of teaching _R_. 
+
+
+## Setup 
+
+The yaml includes this. Note the `webr-setup.html` and _webr-setup.qmd` files.
+```
+---
+title: "the title"
+engine: knitr
+execute:
+  echo: true
+  error: true
+embed-resources: true
+format:
+    html: 
+      toc: true
+      include-in-header: webr-setup.html
+editor: source
+---
+
+{{< include _webr-setup.qmd >}}
+```
+
+## Calling WebR
+
+Use `{webr}` rather than `{r}` for your code.
+
+### Linear Regression
+
+We'll first start with the WebR team's demo example or the statistician way of
+saying, "Hello world!"... Aka linear regression:
+
+```{webr}
+fit = lm(mpg ~ am, data=mtcars)
+summary(fit)
+```
+
+### Retrieving prior objects
+
+Each WebR cell appears to be connected to each other. Thus, we can access the
+`fit` outcome:
+
+```{webr}
+coef(fit)
+```
+
+```{webr}
+anova(fit)
+```
+
+### Mixing active and non-active _R_ code
+
+```{webr}
+# Let's classify 
+temperature = 60
+```
+
+
+```{webr}
+if (temperature > 76) {
+    print("Hot!")
+} else {
+    print("Cold!")
+}
+```
+
+
+### Summarize Data
+
+Glancing at data frames yields: 
+
+```{webr}
+summary(mtcars)
+```
+
+### Errors and Warnings
+
+
+```{webr}
+stop("What happens if an error is present?")
+```
+
+```{webr}
+warning("You shouldn't be here...")
+```
+
+
+### Base graphics
+
+Graphing with base R 
+
+```{webr}
+plot(pressure)
+```
+
+More advanced base R graphing... 
+
+```{webr}
+x1 = seq(0, 1, length = 20)
+y1 = rep(0, 20)
+x2 = rep(0, 20)
+y2 = seq(0.75, 0, length = 20)
+
+plot(0, type = "n",
+     axes = FALSE, ylab = "", xlab = "", 
+     xlim = c(0, 1), ylim = c(0, 0.75), asp = 1,
+     main = "Straight Lines as a Curve")
+
+segments(x1, y1, x2, y2)
+box(col = "grey")
+```
+
+### ggplot2 Graphics
+
+There is an extra step of installing packages that are not part of the base.
+
+CLICK RUN AND WAIT LIKE 1 MINUTE. When you see output, it means it is loaded. Be patient.
+
+```{webr}
+# Install non-base R packages
+webr::install("ggplot2")
+```
+
+Now we can use ggplot2 in the qmd.
+```{webr}
+library("ggplot2")
+p = ggplot(mpg, aes(class, hwy))
+p + geom_boxplot()
+```
+
+
+
