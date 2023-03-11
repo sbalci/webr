@@ -14,17 +14,26 @@
 
 ## trials
 
+### works
+
 - <https://sbalci.github.io/webr/deneme.html>
+
+- <https://sbalci.github.io/webr/webr-demo/index.html>
+
+
+### not yet
+
 
 - <https://sbalci.github.io/webr/rudis1.html>
 
 - <https://sbalci.github.io/webr/rudis2.html>
 
-- <https://sbalci.github.io/webr/webr-quarto.html>
+- <https://sbalci.github.io/webr/webr-quarto1.html>
 
 - <https://sbalci.github.io/webr/webr-quarto-html-demo.html>
 
-- <https://sbalci.github.io/webr/webr-demo/index.html>
+- <https://sbalci.github.io/webr/webr-quarto-html-demo1.html>
+
 
 
 
