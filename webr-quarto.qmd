@@ -1,8 +1,5 @@
 ---
-title: "webR with Quarto HTML Standalone Document Proof of Concept"
-subtitle: "Experiments with an Interactive Quarto Document using webR v0.1.0"
-author: "James J Balamuta; modified by EEH"
-repo:  https://github.com/RVerse-Tutorials/webR-quarto-demos
+title: "webR-quarto"
 engine: knitr
 execute:
   echo: true
@@ -11,27 +8,16 @@ embed-resources: true
 format:
     html: 
       toc: true
-      code-tools:
-        source: https://github.com/RVerse-Tutorials/webR-quarto-demos/blob/main/webr-quarto.qmd
       include-in-header: webr-setup.html
-repo-url: https://github.com/RVerse-Tutorials/webR-quarto-demos
 repo-actions: [edit, source]
 editor: source
 ---
 
 {{< include _webr-setup.qmd >}}
 
-# Background
-
-This is not my work. Forked from and go there to see how this works
-James J Balamuta: <https://github.com/coatless-r-n-d/webR-quarto-demos>
-
-This was created by JJB to explore how [WebR](https://docs.r-wasm.org/webr/latest/) can be embedded in a Quarto Document for the purposes of teaching _R_. 
-
-
-## Setup 
 
 The yaml includes this. Note the `webr-setup.html` and _webr-setup.qmd` files.
+
 ```
 ---
 title: "the title"

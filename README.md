@@ -21,9 +21,13 @@
 
 ### works
 
-- <https://sbalci.github.io/webr/deneme.html>
+- example from r-wasm webr: <https://sbalci.github.io/webr/deneme.html>
 
-- <https://sbalci.github.io/webr/webr-demo/index.html>
+- webr demo: <https://sbalci.github.io/webr/webr-demo/index.html>
+
+- quarto demo as a single file: <https://sbalci.github.io/webr/webr-quarto-html-demo.html>
+
+- quarto demo setup separated (separate qmd and html necessary) : <https://sbalci.github.io/webr/webr-quarto.html>
 
 
 ### not yet
@@ -32,14 +36,6 @@
 - <https://sbalci.github.io/webr/rudis1.html>
 
 - <https://sbalci.github.io/webr/rudis2.html>
-
-- <https://sbalci.github.io/webr/webr-quarto1.html>
-
-- <https://sbalci.github.io/webr/webr-quarto-html-demo.html>
-
-- <https://sbalci.github.io/webr/webr-quarto-html-demo1.html>
-
-
 
 
 
