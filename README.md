@@ -1,5 +1,7 @@
 # webr
 
+## resources
+
 - [WebR Website](https://docs.r-wasm.org/webr/latest/)
 
 - [WebR GitHub](https://github.com/r-wasm/webr/)
@@ -17,7 +19,7 @@
 
 
 
-## file locations
+## js file locations on main <user>github.io repo
 
 - <https://github.com/sbalci/sbalci.github.io/blob/master/webr-serviceworker.js>
 
@@ -28,9 +30,8 @@
 - <https://github.com/sbalci/sbalci.github.io/blob/master/webr.mjs>
 
 
-## trials
+## working examples
 
-### works
 
 - example from r-wasm webr: <https://sbalci.github.io/webr/deneme.html>
 
@@ -42,39 +43,20 @@
 
 - quarto extension: <https://sbalci.github.io/webr/webr2.html>
 
-### will try
-
-
-- <https://sbalci.github.io/webr/rudis1.html>
-
-- <https://sbalci.github.io/webr/rudis2.html>
-
-- <https://sbalci.github.io/webr/experiments/days-1-2/index.html>
-- <https://sbalci.github.io/webr/experiments/days-1-2/pkgs.html>
-- <https://sbalci.github.io/webr/experiments/days-1-2/plot-moar.html>
-- <https://sbalci.github.io/webr/experiments/days-1-2/plot.html>
-
-
-- <https://sbalci.github.io/webr/experiments/day-3/index.html>
-- <https://sbalci.github.io/webr/experiments/day-3/no-dplyr.html>
-- <https://sbalci.github.io/webr/experiments/day-3/repl.html>
-
-
-
 
 ---
 
+# Copied from repos below: 
 
 
 
-
-# [webR-quarto-demos](https://github.com/coatless-r-n-d/webR-quarto-demos)
+## [webR-quarto-demos](https://github.com/coatless-r-n-d/webR-quarto-demos)
 
 This repository houses experiments with generating a standalone [Quarto Document](https://quarto.org/) using [WebR](https://docs.r-wasm.org/webr/latest/).
 
 - [Quarto HTML Document with WebR](https://rd.thecoatlessprofessor.com/webR-quarto-demos/webr-quarto-html-demo.html) ([Source](webr-quarto-html-demo.qmd))
 
-## Background
+### Background
 
 [WebR v0.1.0](https://twitter.com/gwstagg/status/1633821049329537025) was launched on March 9th
 by George Stagg ([georgestagg](https://github.com/georgestagg)) and Lionel Henry ([lionel-](https://github.com/lionel-)). The goal of webR is to: 
@@ -83,7 +65,7 @@ by George Stagg ([georgestagg](https://github.com/georgestagg)) and Lionel Henry
 
 This is an _amazing_ advancement of _R_ and has major implications with teaching R to the masses in an active learning context!
 
-## Acknowledgements
+### Acknowledgements
 
 This repository leans _heavily_ on the webR developers public-facing examples:
 
@@ -103,7 +85,7 @@ This repository leans _heavily_ on the webR developers public-facing examples:
 
 
 
-# [webR-quarto-demos](https://github.com/RVerse-Tutorials/webR-quarto-demos)
+## [webR-quarto-demos](https://github.com/RVerse-Tutorials/webR-quarto-demos)
 
 This is a fork of https://github.com/coatless-r-n-d/webR-quarto-demos. I moved the setup code into separate html and qmd files and then use includes in the qmd.
 
@@ -121,7 +103,7 @@ Example:
 * [rverse-tutorials.github.io/webR-quarto-demos/webr-quarto.html](rverse-tutorials.github.io/webR-quarto-demos/webr-quarto.html)
 * [rverse-tutorials.github.io/webR-quarto-demos/webr-quarto-html-demo.html](rverse-tutorials.github.io/webR-quarto-demos/webr-quarto-html-demo.html)
 
-## Acknowledgements
+### Acknowledgements
 
 This is a fork of work by James J Balamuta:
 - [Quarto HTML Document with WebR](https://github.com/coatless-r-n-d/webR-quarto-demos)
@@ -130,3 +112,5 @@ To explore use of WebR in Quarto. [WebR v0.1.0](https://twitter.com/gwstagg/stat
 by George Stagg ([georgestagg](https://github.com/georgestagg)) and Lionel Henry ([lionel-](https://github.com/lionel-)). 
 
 The `_webr-setup.qmd` and `webr-setup.html` files are the key setup files and are all the work of James J Balamuta in this [file](https://github.com/coatless-r-n-d/webR-quarto-demos/blob/main/webr-quarto-html-demo.qmd).
+
+
