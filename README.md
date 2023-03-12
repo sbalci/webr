@@ -43,6 +43,9 @@
 
 - quarto extension: <https://sbalci.github.io/webr/webr2.html>
 
+- webpage: <https://github.com/sbalci/datacarp-interactive> modified from <https://github.com/ethanwhite/datacarp-interactive>
+
+
 
 ---
 

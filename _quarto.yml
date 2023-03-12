@@ -6,6 +6,8 @@ project:
 #   resources:
 #       - "*.html"
 #       - "*.js"
+  # post-render:
+  #   - add-extra-files.R
 # 
 # website:
 #   title: "webr"
