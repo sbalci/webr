@@ -4,17 +4,6 @@
 
 - [WebR GitHub](https://github.com/r-wasm/webr/)
 
-- [WebR Code Extension for Quarto](https://github.com/coatless/quarto-webr)
-
-- [hrbrmstr/webr-experiments](https://github.com/hrbrmstr/webr-experiments)
-
-- [rud.is/webr-dash/](https://rud.is/webr-dash/)
-
-- <https://jupyter.r-wasm.org/lab/index.html>
-
-- [WebR Utility Functions](https://observablehq.com/@hrbrmstr/webr-utility-functions)
-
-
 
 
 ## file locations
@@ -40,25 +29,13 @@
 
 - quarto demo setup separated (separate qmd and html necessary) : <https://sbalci.github.io/webr/webr-quarto.html>
 
-- quarto extension: <https://sbalci.github.io/webr/webr2.html>
 
-### will try
+### not yet
 
 
 - <https://sbalci.github.io/webr/rudis1.html>
 
 - <https://sbalci.github.io/webr/rudis2.html>
-
-- <https://sbalci.github.io/webr/experiments/days-1-2/index.html>
-- <https://sbalci.github.io/webr/experiments/days-1-2/pkgs.html>
-- <https://sbalci.github.io/webr/experiments/days-1-2/plot-moar.html>
-- <https://sbalci.github.io/webr/experiments/days-1-2/plot.html>
-
-
-- <https://sbalci.github.io/webr/experiments/day-3/index.html>
-- <https://sbalci.github.io/webr/experiments/day-3/no-dplyr.html>
-- <https://sbalci.github.io/webr/experiments/day-3/repl.html>
-
 
 
 
