@@ -16,7 +16,7 @@
 
 - [WebR Utility Functions](https://observablehq.com/@hrbrmstr/webr-utility-functions)
 
-
+- [Almost Bare Bones WebR Starter App](https://rud.is/b/2023/03/12/almost-bare-bones-webr-starter-app/)
 
 
 ## js file locations on main <user>github.io repo
